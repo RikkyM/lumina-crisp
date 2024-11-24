@@ -23,7 +23,7 @@ const Toast = ({ message, type, onClose }) => {
   };
 
   return (
-    <div className={`fixed top-4 right-4 z-50 animate-fade-in bg-red-500`}>
+    <div className={`fixed top-4 right-4 z-50 animate-fade-in`}>
       <div
         className={`${getToastStyles()} text-white px-6 py-3 rounded-lg shadow-lg flex items-center justify-between min-w-[300px]`}
       >
